@@ -1857,6 +1857,29 @@
 
 		}
 
+	/* Chrome, Safari, Opera */
+@-webkit-keyframes headerone {
+    0%   {margin-top:-120px;}
+	100%   {margin-top:0;}
+}
+
+/* Standard syntax */
+@keyframes headerone {
+	0%   {margin-top:-120px;}
+	100%   {margin-top:0;}
+}
+
+
+/*****網頁頭*****/
+header{
+	-webkit-animation-name: headerone; /* Chrome, Safari, Opera */
+	-webkit-animation-duration: 1.5s; /* Chrome, Safari, Opera */
+	-webkit-animation-fill-mode: forwards;
+	animation-name: headerone;
+	animation-duration: 1.5s;
+	animation-fill-mode: forwards;
+	}
+
 	header p {
 		color: #bbb;
 		position: relative;
@@ -1880,6 +1903,7 @@
 		margin-top: -0.6em;
 	}
 
+	
 /* Flex */
 
 	.flex {
