@@ -2742,8 +2742,8 @@ header{
 		.subpage #header {
 			background: #5385c1;
 			top: 0;
-			height: 44px;
-			line-height: 44px;
+			height: 64px;
+			line-height: 64px;
 			position: fixed;
 		}
 
@@ -2769,9 +2769,7 @@ header{
 			color: #ffffff;
 			display: inline-block;
 			font-weight: 600;
-			height: inherit;
 			left: 0;
-			line-height: inherit;
 			margin: 0;
 			padding: 0;
 			position: absolute;
@@ -2831,7 +2829,7 @@ header{
 
 		#header {
 			top: 3em;
-			height: 44px;
+			height: 64px;
 			line-height: 44px;
 		}
 
@@ -2863,7 +2861,7 @@ header{
 		}
 
 	}
-
+	
 	#navPanel {
 		-moz-transform: translatex(20em);
 		-webkit-transform: translatex(20em);
