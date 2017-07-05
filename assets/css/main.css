@@ -2793,9 +2793,6 @@ header{
 				color: #ffffff;
 			}
 
-			#header a:last-child {
-				padding-right: 0;
-			}
 
 			#header a.navPanelToggle {
 				display: none;
@@ -2860,6 +2857,22 @@ header{
 			display: none;
 		}
 
+	}
+	/*transform*/
+	#nav {
+		-webkit-transition: background, width;
+		transition: background, width, transform;
+		-webkit-transition-duration: 1s;
+		transition-duration: 1s;
+		-webkit-transition-timing-function: ease-in-out;  transition-timing-function: ease-in-out;
+	}
+	
+	#nav last{
+			padding-right:9px;
+	}
+	
+	#nav a:hover {
+		background: rgba(25, 69, 123, 0.75);
 	}
 	
 	#navPanel {
@@ -2962,7 +2975,7 @@ header{
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		text-align: center;
-		border-top: 0.5em solid #5385c1;
+		/*border-top: 0.5em solid #5385c1;*/
 	}
 
 		#banner h1 {
