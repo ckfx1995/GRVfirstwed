@@ -1857,6 +1857,29 @@
 
 		}
 
+	/* Chrome, Safari, Opera */
+@-webkit-keyframes headerone {
+    0%   {margin-top:-120px;}
+	100%   {margin-top:0;}
+}
+
+/* Standard syntax */
+@keyframes headerone {
+	0%   {margin-top:-120px;}
+	100%   {margin-top:0;}
+}
+
+
+/*****網頁頭*****/
+header{
+	-webkit-animation-name: headerone; /* Chrome, Safari, Opera */
+	-webkit-animation-duration: 1.5s; /* Chrome, Safari, Opera */
+	-webkit-animation-fill-mode: forwards;
+	animation-name: headerone;
+	animation-duration: 1.5s;
+	animation-fill-mode: forwards;
+	}
+
 	header p {
 		color: #bbb;
 		position: relative;
@@ -1880,6 +1903,7 @@
 		margin-top: -0.6em;
 	}
 
+	
 /* Flex */
 
 	.flex {
@@ -2718,8 +2742,8 @@
 		.subpage #header {
 			background: #5385c1;
 			top: 0;
-			height: 44px;
-			line-height: 44px;
+			height: 64px;
+			line-height: 64px;
 			position: fixed;
 		}
 
@@ -2745,9 +2769,7 @@
 			color: #ffffff;
 			display: inline-block;
 			font-weight: 600;
-			height: inherit;
 			left: 0;
-			line-height: inherit;
 			margin: 0;
 			padding: 0;
 			position: absolute;
@@ -2771,9 +2793,6 @@
 				color: #ffffff;
 			}
 
-			#header a:last-child {
-				padding-right: 0;
-			}
 
 			#header a.navPanelToggle {
 				display: none;
@@ -2807,7 +2826,7 @@
 
 		#header {
 			top: 3em;
-			height: 44px;
+			height: 64px;
 			line-height: 44px;
 		}
 
@@ -2839,7 +2858,23 @@
 		}
 
 	}
-
+	/*transform*/
+	#nav {
+		-webkit-transition: background, width;
+		transition: background, width, transform;
+		-webkit-transition-duration: 1s;
+		transition-duration: 1s;
+		-webkit-transition-timing-function: ease-in-out;  transition-timing-function: ease-in-out;
+	}
+	
+	#nav last{
+			padding-right:9px;
+	}
+	
+	#nav a:hover {
+		background: rgba(25, 69, 123, 0.75);
+	}
+	
 	#navPanel {
 		-moz-transform: translatex(20em);
 		-webkit-transform: translatex(20em);
@@ -2929,7 +2964,22 @@
 			#navPanel .close:hover {
 				color: inherit;
 			}
-
+/* main */
+	@media screen and (max-width: 1280px){
+		#main_img {
+			
+		}
+	}
+	
+	#main_img {
+		padding:0;
+	}
+	
+	#main_img img {
+		max-width:100%;
+		height:;
+	}
+	
 /* Banner */
 
 	#banner {
@@ -2940,7 +2990,7 @@
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		text-align: center;
-		border-top: 0.5em solid #5385c1;
+		/*border-top: 0.5em solid #5385c1;*/
 	}
 
 		#banner h1 {
@@ -2951,13 +3001,91 @@
 			margin: 0 0 0.5em 0;
 			padding: 0;
 		}
-
+		
+		
 		#banner p {
 			font-size: 1em;
-			color: rgba(255, 255, 255, 0.55);
+			color: rgba(255, 255, 255, 1);
 			margin-bottom: 1.75em;
 		}
+		
+		#title {
+			-webkit-animation-duration: 1s;
+			-moz-animation-duration: 1s;
+			-webkit-animation-name: slidein;
+			-moz-animation-name: slidein;
+		}
+		
+		#content {
+			-webkit-animation-duration: 2s;
+			-moz-animation-duration: 2s;
+			-webkit-animation-name: slidein-2;
+			-moz-animation-name: slidein-2;
+		}
+		
+		@-webkit-keyframes slidein {
+		  0% {
+			color:rgba(255,255,255,0);
+			padding-left: 0.5%;
+			width: 120%;
+		  }
+		  100% {
+			color:rgba(255,255,255,255);
+			padding-left: 0%;
+			width: 100%;
+		  }
+		}
 
+		@-moz-keyframes slidein {
+		  0% {
+			color:rgba(255,255,255,0);
+			padding-left: 0.5%;
+			width: 120%;
+		  }
+		  100% {
+			color:rgba(255,255,255,255);
+			padding-left: 0%;
+			width: 100%;
+		  }
+		}
+		
+		@-webkit-keyframes slidein-2 {
+			0% {
+				color:rgba(255,255,255,0);
+				padding-left: 1%;
+				width: 120%;
+			}
+			50% {
+				color:rgba(255,255,255,0);
+				padding-left: 0.5%;
+				width: 120%;
+			 }
+			 100% {
+				color:rgba(255,255,255,255);
+				padding-left: 0%;
+				width: 100%;
+			 }
+		}
+
+		@-moz-keyframes slidein-2 {
+			0% {
+				color:rgba(255,255,255,0);
+				padding-left: 1%;
+				width: 120%;
+			}
+			50% {
+				color:rgba(255,255,255,0);
+				padding-left: 0.5%;
+				width: 120%;
+			 }
+			 100% {
+				color:rgba(255,255,255,255);
+				padding-left: 0%;
+				width: 100%;
+			 }
+		}
+		
+		
 		@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
 
 			#banner {
