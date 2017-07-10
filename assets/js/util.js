@@ -145,10 +145,7 @@
 
 					$this.find('a')
 						.css('-webkit-tap-highlight-color', 'rgba(0,0,0,0)');
-						.css('-webkit-linear-gradient','(270deg,rgba(38,99,121,1.00), 0%,rgba(62,136,162,1.00) 100%)');
-						.css('-moz-linear-gradient','(270deg,rgba(38,99,121,1.00) 0%rgba(62,136,162,1.00) 100%');
-						.css('-o-linear-gradient','(270deg,rgba(38,99,121,1.00) 0%,rgba(62,136,162,1.00) 100%)');
-					
+
 					$this
 						.on('click', 'a', function(event) {
 
