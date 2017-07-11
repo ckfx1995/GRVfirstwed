@@ -2740,7 +2740,7 @@ header{
 	}
 
 		.subpage #header {
-			background: #5385c1;
+			background: rgb(109, 200, 243);
 			top: 0;
 			height: 64px;
 			line-height: 64px;
@@ -2849,6 +2849,11 @@ header{
 
 	}
 
+	header .logo img {
+		width:auto;
+		height:60px;
+	}
+	
 /* Nav */
 
 	@media screen and (max-width: 980px) {
@@ -2871,9 +2876,36 @@ header{
 			padding-right:9px;
 	}
 	
-	#nav a:hover {
-		background: rgba(25, 69, 123, 0.75);
+	#nav #n1 {
+		width:auto;
 	}
+	
+	#nav a:hover {
+			-webkit-animation-duration: 1s;
+			-moz-animation-duration: 1s;
+			-webkit-animation-name: change_color;
+			-moz-animation-name: change_color;
+	}
+	
+	@-webkit-keyframes change_color {
+		0% {
+			background:rgba(64, 142, 179, 1);
+			height:0;
+		 }
+		100% {
+			background:rgba(64, 142, 179, 0.5);
+			height:64px;
+		}
+	}
+		@-moz-keyframes change_color {
+		  0% {
+			background: rgba(64, 142, 179, 1);
+		  }
+		  100% {
+			background: rgba(64, 142, 179, 0.5);
+		  }
+		}
+	
 	
 	#navPanel {
 		-moz-transform: translatex(20em);
@@ -2964,6 +2996,9 @@ header{
 			#navPanel .close:hover {
 				color: inherit;
 			}
+			
+
+		
 /* main */
 	@media screen and (max-width: 1280px){
 		#main_img {
