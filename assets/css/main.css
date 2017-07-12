@@ -2742,8 +2742,8 @@ header{
 		.subpage #header {
 			background: rgb(109, 200, 243);
 			top: 0;
-			height: 64px;
-			line-height: 64px;
+			height: 92px;
+			line-height: 92px;
 			position: fixed;
 		}
 
@@ -2851,7 +2851,8 @@ header{
 
 	header .logo img {
 		width:auto;
-		height:60px;
+		height:86px;
+		line-height:96px;
 	}
 	
 /* Nav */
@@ -2880,11 +2881,20 @@ header{
 		width:auto;
 	}
 	
+	#nav .nav_cover:hover{
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		background:rgba(64, 142, 179, 0.5);
+		height:63px;
+	}
+	
 	#nav a:hover {
-			-webkit-animation-duration: 1s;
-			-moz-animation-duration: 1s;
-			-webkit-animation-name: change_color;
-			-moz-animation-name: change_color;
+		transition:1s;
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		//-webkit-animation-name: change_color;
+		//-moz-animation-name: change_color;
+		//background:rgba(64, 142, 179, 0.5);
 	}
 	
 	@-webkit-keyframes change_color {
@@ -3045,15 +3055,15 @@ header{
 		}
 		
 		#title {
-			-webkit-animation-duration: 1s;
-			-moz-animation-duration: 1s;
+			-webkit-animation-duration: 2s;
+			-moz-animation-duration: 2s;
 			-webkit-animation-name: slidein;
 			-moz-animation-name: slidein;
 		}
 		
 		#content {
-			-webkit-animation-duration: 2s;
-			-moz-animation-duration: 2s;
+			-webkit-animation-duration: 4s;
+			-moz-animation-duration: 4s;
 			-webkit-animation-name: slidein-2;
 			-moz-animation-name: slidein-2;
 		}
