@@ -8,8 +8,8 @@ body{ font-size:1em; background:url(bg.jpg) repeat-x;}
 .hdr{ background:url(images/logo.png); width:461px; height:94px; margin:10px auto; text-indent:-9999px;}
 .list1{ list-style:none; margin:0; padding:0;}
 
-.sliderBox{ background:#FFF; border:solid 1px #09C; width:80%; border-radius:10px; overflow:hidden; position:relative; padding-bottom:15px; margin:auto;}
-.slider{max-width:100% padding:20px 0 10px; width:70%; height:280px; overflow:hidden; margin:auto; position:relative;}
+.sliderBox{ background:#FFF; border:solid 1px #09C; width: 75%; border-radius:10px; overflow:hidden; position:relative; padding-bottom:15px; margin:auto;}
+.slider{max-width:100% padding:20px 0 10px; width:85%; height:280px; overflow:hidden; margin:auto; position:relative;}
 .slider ul{ overflow:hidden; width:1992px; position:absolute; left:0;}
 .slider li{list-style-type:none; float:left; margin:0 10px; text-align:center; }
 .slider a{ display:inline-block; width:140px; height:140px; padding:2px; overflow:hidden; border:solid 1px #CCC; margin-bottom:5px;}

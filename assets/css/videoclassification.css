@@ -1,7 +1,7 @@
 hr.major2 {
-    margin: -17px 0;
+    margin: 13px 0;
     border: 0;
-    height: 4px;
+    height: 3px;
     background:#ccc;
 }
 
@@ -32,6 +32,7 @@ hr.major2 {
 
 .inner2 a {
     text-decoration: none;
+    
 }
 
 .inner2 p {
@@ -40,9 +41,20 @@ hr.major2 {
 
 .inner2 a:hover {
     text-decoration: underline;
+    color : black;
 }
 
 .inner2 nav {
-    font-size:44px;"
+    font-size:30px;
+    
 
+}
+.inner2 ul {
+    line-height: 0;
+    list-style: none; /* 拿掉點點*/
+    margin:0;
+}
+.inner2 li {
+    display:inline-block; /*把 block 變成 inline-block 就不會斷行*/
+    margin: 0 5px;
 }
