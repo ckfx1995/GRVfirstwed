@@ -1,6 +1,60 @@
 hr.major2 {
+    margin: 13px 0;
     border: 0;
-    height: 1px;
-    background: #333;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    height: 3px;
+    background:#ccc;
+}
+
+.inner2 {
+    max-width: 75em;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px) {
+    
+    .inner2 {
+        max-width: 90%;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    
+    .inner2 {
+        max-width: 85%;
+    }
+    
+}
+
+.inner2 article {
+    text-align:center;
+}
+
+.inner2 a {
+    text-decoration: none;
+    
+}
+
+.inner2 p {
+    margin:0;
+}
+
+.inner2 a:hover {
+    text-decoration: underline;
+    color : black;
+}
+
+.inner2 nav {
+    font-size:30px;
+    
+
+}
+.inner2 ul {
+    line-height: 0;
+    list-style: none; /* 拿掉點點*/
+    margin:0;
+}
+.inner2 li {
+    display:inline-block; /*把 block 變成 inline-block 就不會斷行*/
+    margin: 0 5px;
 }
