@@ -2320,12 +2320,8 @@ header{
 			text-align:center;
 		}
 			
-			.box .image img{
-				width:70%;
-			}
 			#act_img {
 				text-align:center;
-				width:70%;
 			}
 			
 			.image img {
@@ -2334,8 +2330,14 @@ header{
 			}
 	
 			@media screen and (max-width: 980px) {
-				.image.fit img {
-					width: 476px;
+				.image.fit {
+					max-width: 55%;
+				}
+			}
+	
+			@media screen and (max-width: 578px) {
+				.image.fit {
+					max-width: 70%;
 				}
 			}
 	
@@ -2899,9 +2901,11 @@ header{
 			min-width: 320px;
 		}
 		#header .logo img{
-			height:52px;
+			height: auto;
+			width: 140px;
 			line-height: 52px;
-			margin-top:7px;
+			margin-top: 13px;
+
 		}
 	}
 
