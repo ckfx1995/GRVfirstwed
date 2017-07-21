@@ -3253,77 +3253,54 @@ header{
 	}
 	
 	/* news animation */
-	
-	#a_img a {
-		text-decoration:none;
-	}
-	
-	#a_img p{
-		position: absolute;
-		z-index:99;
-		top: 70%;
-		left: 40%;
-		opacity: 0;
-		filter: alpha(opacity=0);
-		color:#EEFFFF;
-		font-weight:bold;
-		font-size:18px;
-		transition:.9s;
-	}
-	
-	#a_img .fin {
-		position: relative;
-		overflow: hidden;
-		top: 0;
-		left: 0;
-		opacity: 1;
-		filter: alpha(opacity=1);
-	}
-	#a_img .fin img{
-		transition: 0.6s;
-	}
-	
-	#a_img .fir{
-		position: absolute;
-		top: 0;
-		left: 0;
-		opacity: 0;
-		filter: alpha(opacity=0);
-		transition:.6s;
-	}
-	
-	#a_img:hover p{
-		left:43%;
-		opacity: 1;
-		filter: alpha(opacity=1);
-	}
-	
-	#a_img:hover .fir{
-		opacity: .9;
-		filter: alpha(opacity=.9);
-	}
-	
-	#a_img:hover .fin img{
-		-webkit-transform: scale(1.2);
-		-moz-transform: scale(1.2);
-		-ms-transform: scale(1.2);
-		-o-transform: scale(1.2);
-		transform: scale(1.2);
-	}
-	
-	@media screen and (max-width: 980px){
-		#a_img .fin img{
-			margin:0;
-			text-align:center;
+	@media screen and (min-width: 980px){
+		#a_img a {
+			text-decoration:none;
+		}
+
+		#a_img p{
+			position: absolute;
+			z-index:99;
+			top: 70%;
+			left: 40%;
+			opacity: 0;
+			filter: alpha(opacity=0);
+			color:#EEFFFF;
+			font-weight:bold;
+			font-size:18px;
+			transition:.9s;
 		}
 		
 		#a_img .fin {
-			text-align:center;
+			position: relative;
+			overflow: hidden;
+			top: 0;
+			left: 0;
+			opacity: 1;
+			filter: alpha(opacity=1);
+		}
+		#a_img .fin img{
+			transition: 0.6s;
 		}
 		
-		#a_img .fir img{
-			margin:0;
-			text-align:center;
+		#a_img .fir{
+			position: absolute;
+			top: 0;
+			left: 0;
+			opacity: 0;
+			filter: alpha(opacity=0);
+			transition:.6s;
+		}
+		
+		#a_img:hover p{
+			left:43%;
+			opacity: 1;
+			filter: alpha(opacity=1);
+		}
+		
+		#a_img:hover .fir{
+			opacity: .9;
+			filter: alpha(opacity=.9);
 		}
 		
 		#a_img:hover .fin img{
@@ -3334,6 +3311,51 @@ header{
 			transform: scale(1.2);
 		}
 	}
+	
+	@media screen and (max-width: 980px){
+		#a_img p{
+			display:none;
+		}
+		
+		#a_img a {
+			text-decoration:none;
+		}
+
+		#a_animation #a_img{
+			perspective: 1000;
+			text-align:center;
+		}
+		
+		#a_animation #a_img:hover .image, #a_img.hover .image {
+			transform: rotateY(180deg);
+		}
+		
+		#a_img .image{
+			top: 0;
+			left: 0;
+			transition: 0.6s;
+			transform-style: preserve-3d;
+		}
+		
+		#a_img .image div{
+			backface-visibility: hidden;
+			/position: absolute;
+			text-align:center;
+		}
+		
+		#a_img .fin {
+			z-index: 2;
+			position:relative;
+		}
+		
+		#a_img .fir {
+			top:0;
+			left:0;
+			transform: rotateY(180deg);
+			position:absolute;
+		}
+	}
+	
 /* News */
 	#three .news_sec article{
 		perspective: 1000;
