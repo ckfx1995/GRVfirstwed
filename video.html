@@ -11,6 +11,8 @@
 		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
 		<link rel="stylesheet" href="./assets/css/main.css" />
         <link rel="stylesheet" href="./assets/css/videoclassification.css" />
+        <script type="text/javascript" src="./assets/js/jquery.min.js"></script>
+        <script type="text/javascript" src="./assets/js/filter.js"></script>
 	</head>
 	<body class="subpage">
 
@@ -57,9 +59,9 @@
                      <hr class="major">
                     <nav>
                         <ul>
-                        <li><a href="index.html" >NEW</a></li>
-                        <li><a href="generic.html">ALL</a></li>
-                        <li><a href="elements.html">TYPE</a></li>
+                        <li><button class="small" id="new">NEW</a></li>
+                        <li><button class="small" id="all">ALL</button></li>
+                        <li><button class="small" id="type1">TYPE</a></li>
                         </ul>
                     </nav>
                     <hr class="major2">
@@ -68,7 +70,75 @@
             <!--elements-->
             <section id="three" class="wrapper">
                 <div class="inner">
-                    <div class="flex flex-3"><!-- 分成多少格 -->
+                     <div class="row">
+                    <div class="4u 12u$(medium) el new"><!--e1-->
+                        <article id="a_animation" >
+                            <section id="a_img">
+                                <div class="image fit">
+                                    <a href="#">
+                                        <div class="fin">
+                                            <img src="./images/news01.jpg" alt="Pic 01" />
+                                        </div>
+                                        <div class="fir">
+                                            <img src="./images/logo_pic2.png" alt="Pic 02" />
+                                        </div>
+                                        <p>進入 →</p>
+                                    </a>
+                                </div>
+                            </section>
+                            
+                            <header>
+                                <div class="text_font1">
+                                    <h3>格1(new)</h3>
+                                </div>
+                            </header>
+                        </article>
+                    </div>
+                    <div class="4u 12u$(medium) el"><!--e2-->
+                        <article id="a_animation">
+                            <section id="a_img">
+                                <div class="image fit">
+                                    <a href="#">
+                                        <div class="fin">
+                                            <img src="./images/logo_pic.png" alt="Pic 01" />
+                                        </div>
+                                        <div class="fir">
+                                            <img src="./images/logo_pic2.png" alt="Pic 02" />
+                                        </div>
+                                        <p>進入 →</p>
+                                    </a>
+                                </div>
+                            </section>
+                            <header>
+                                <div class="text_font1">
+                                    <h3>格2(all only)</h3>
+                                </div>
+                            </header>
+                        </article>
+                    </div>
+                    <div class="4u 12u$(medium) el type1"><!--e3-->
+                        <article id="a_animation">
+                            <section id="a_img">
+                                <div class="image fit">
+                                    <a href="#">
+                                        <div class="fin">
+                                            <img src="./images/logo_pic.png" alt="Pic 01" />
+                                        </div>
+                                        <div class="fir">
+                                            <img src="./images/logo_pic2.png" alt="Pic 02" />
+                                        </div>
+                                        <p>進入 →</p>
+                                    </a>
+                                </div>
+                            </section>
+                            <header>
+                                <div class="text_font1">
+                                    <h3>格3(type1)</h3>
+                                </div>
+                            </header>
+                        </article>
+                    </div>
+                    <div class="4u 12u$(medium) el"><!--e4-->
                         <article id="a_animation">
                             <section id="a_img">
                                 <div class="image fit">
@@ -89,6 +159,8 @@
                                 </div>
                             </header>
                         </article>
+                    </div>
+                    <div class="4u 12u$(medium) el"><!--e5-->
                         <article id="a_animation">
                             <section id="a_img">
                                 <div class="image fit">
@@ -109,6 +181,8 @@
                                 </div>
                             </header>
                         </article>
+                    </div>
+                    <div class="4u 12u$(medium) el"><!--e6-->
                         <article id="a_animation">
                             <section id="a_img">
                                 <div class="image fit">
@@ -129,6 +203,8 @@
                                 </div>
                             </header>
                         </article>
+                        </div>
+                        <!--TEST END-->
                     </div>
                 </div>
             </section>
