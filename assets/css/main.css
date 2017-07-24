@@ -2937,13 +2937,14 @@ header{
 		width:auto;
 	}
 	#nav .nav_cover{
-		font-size:16px;
+		font-size:20px;
 		font-weight:bold;
 		margin-top:-6px;
 		height:0;
 		background:rgba(64, 142, 179, 0);
 		padding: 0 1em;
 		color:#EEFFFF;
+        padding-right:25px;
 	}
 	
 	#nav .nav_cover:hover{

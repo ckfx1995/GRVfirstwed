@@ -4,6 +4,7 @@ $(document).ready(function(){
                                     $(".new").css("display","");
                                     });
                   $("#all").click(function(){
+                                  $(".el").css("display","none");
                                   $(".el").css("display","");
                                   });
                   $("#type1").click(function(){
