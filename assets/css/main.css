@@ -53,7 +53,7 @@
 
 @import url(http://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
 	.text_font1{
-		font-family: 'cwTeXFangSong', serif;
+		font-family: 'cwTeXFangSong', Roman;
 	}
 /* Box Model */
 
@@ -2822,7 +2822,8 @@ header{
 			line-height: inherit;
 			margin: 0;
 			padding: 0;
-			position: absolute;
+			position: relative;
+			float:left;
 			top: 0;
 			font-size: 1em;
 		}
@@ -2937,14 +2938,13 @@ header{
 		width:auto;
 	}
 	#nav .nav_cover{
-		font-size:20px;
+		font-size:18px;
 		font-weight:bold;
 		margin-top:-6px;
 		height:0;
 		background:rgba(64, 142, 179, 0);
-		padding: 0 1em;
+		padding: 0 .7em;
 		color:#EEFFFF;
-        padding-right:25px;
 	}
 	
 	#nav .nav_cover:hover{
@@ -3059,7 +3059,7 @@ header{
 			#navPanel #n1:hover {
 				background: rgb(127, 189, 218);
 			}
-			
+
 			
 /* main */
 	#news_text{
@@ -3107,53 +3107,43 @@ header{
 		left: 0;
 		opacity: 0;
 		filter: alpha(opacity=0);
-		-webkit-animation: round 25s linear infinite;
-        animation: round 25s linear infinite;
+		-webkit-animation: round 15s linear infinite;
+        animation: round 15s linear infinite;
 	}
 	
 	#main_img .fir{
 		animation-name:first-child;
 	}
 	
-	#main_img div:nth-child(5) {
+	#main_img div:nth-child(3) {
 		-webkit-animation-delay: 0s;
             animation-delay: 0s;
 	}
 
-	#main_img div:nth-child(4) {
+	#main_img div:nth-child(2) {
 		-webkit-animation-delay: 5s;
 				animation-delay: 5s;
 	}
 
-	#main_img div:nth-child(3) {
+	#main_img div:nth-child(1) {
 		-webkit-animation-delay: 10s;
 				animation-delay: 10s;
 	}
 
-	#main_img div:nth-child(2) {
-		-webkit-animation-delay: 15s;
-				animation-delay: 15s;
-	}
-
-	#main_img div:nth-child(1) {
-		-webkit-animation-delay: 20s;
-				animation-delay: 20s;
-	}
-	
 	@-webkit-keyframes round {
-		4% {
+		7% {
 			opacity: 1;
 			filter: alpha(opacity=100);
 			position: absolute;
 			/* 0 - 1秒 淡入*/
 		}
-		20% {
+		33% {
 			opacity: 1;
 			filter: alpha(opacity=100);
 			position: absolute;
 			/* 1- 5秒靜止*/
 		}
-		24% {
+		40% {
 			opacity: 0;
 			filter: alpha(opacity=0);
 			position: absolute;
@@ -3166,19 +3156,19 @@ header{
 		}
 	}
 	@keyframes round {
-		4% {
+		7% {
 			opacity: 1;
 			filter: alpha(opacity=100);
 			position: absolute;
 			/* 0 - 1秒 淡入*/
 		}
-		20% {
+		33% {
 			opacity: 1;
 			filter: alpha(opacity=100);
 			position: absolute;
 			/* 1- 5秒靜止*/
 		}
-		24% {
+		40% {
 			opacity: 0;
 			filter: alpha(opacity=0);
 			position: absolute;
@@ -3197,19 +3187,19 @@ header{
 			filter: alpha(opacity=0);
 			position: relative;
 		}
-		4% {
+		7% {
 			opacity: 1;
 			filter: alpha(opacity=100);
 			position: relative;
 			/* 0 - 1秒 淡入*/
 		}
-		20% {
+		33% {
 			opacity: 1;
 			filter: alpha(opacity=100);
 			position: relative;
 			/* 1- 5秒靜止*/
 		}
-		24% {
+		40% {
 			opacity: 0;
 			filter: alpha(opacity=0);
 			position: relative;
@@ -3228,19 +3218,19 @@ header{
 			filter: alpha(opacity=0);
 			position: relative;
 		}
-		4% {
+		7% {
 			opacity: 1;
 			filter: alpha(opacity=100);
 			position: relative;
 			/* 0 - 1秒 淡入*/
 		}
-		20% {
+		33% {
 			opacity: 1;
 			filter: alpha(opacity=100);
 			position: relative;
 			/* 1- 5秒靜止*/
 		}
-		24% {
+		40% {
 			opacity: 0;
 			filter: alpha(opacity=0);
 			position: relative;
