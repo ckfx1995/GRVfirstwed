@@ -53,7 +53,7 @@
 
 @import url(http://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
 	.text_font1{
-		font-family: 'cwTeXFangSong', Roman;
+		font-family: 'cwTeXFangSong', Roman ,Microsoft JhengHei;
 	}
 /* Box Model */
 
