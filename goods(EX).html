@@ -10,23 +10,19 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
 		<link rel="stylesheet" href="./assets/css/main.css" />
-        <link rel="stylesheet" href="./assets/css/about.css" />
-		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-		  ga('create', 'UA-103782278-1', 'auto');
-		  ga('send', 'pageview');
-		</script>
+        <script type="text/javascript" src="./assets/js/jquery.min.js"></script>
+        <script type="text/javascript" src="./assets/js/away.js"></script>
+        <link rel="stylesheet" href="./assets/css/slideBox.css" />
+        <link rel="stylesheet" href="./assets/css/videoclassification.css" />
+        <script type="text/javascript" src="./assets/js/jquery.min.js"></script>
+        <script type="text/javascript" src="./assets/js/filter.js"></script>
 	</head>
 	<body class="subpage">
 
 		<!-- Header -->
 			<header id="header">
 				<div class="inner  text_font1">
-					<div class="logo"> 
+					<div class="logo image fit"> 
 						<a href="./index.html" class="logo"><img src="./images/logo_img.png" alt="綠雷德文創"></a>
 					</div>
 					<nav id="nav">
@@ -42,28 +38,54 @@
 			</header>
 		<!-- main img -->
 		<header id="main_area">
-			<section id="n_img">
-				<div>
-					<img src="./images/pic_test2.png" alt="main img" />
-				</div>
+			<section id="main_img">
+                <div>
+                    <img src="./images/20170728132320.jpg" alt="main img" />
+                </div>
+                <div>
+                    <img src="./images/20170728115355.jpg" alt="main img" />
+                </div>
+                <div class="fir">
+                    <img src="./images/20170728115454.jpg" alt="main img" />
+                </div>
 			</section>
 		</header>
-            <!-- Banner -->
-            <section id="about">
-                <p id="title_A">About Us<br/>關於綠雷德</p>
-            </section>
             <!-- Three -->
+            <hr class="major">
+            <div class="inner2">
+                <h2>產品</h2>
+                <input type="button" value="上一頁" onclick="history.back()">
+                <hr class="major2">
+            </div>
+            
+            <!--elements-->
             <section id="three" class="wrapper">
                 <div class="inner">
-                    <div class="row main">
-                    <div class="12u">
-                        <div style="text-align:center;"><h4>綠雷德帶領著國內外小朋友一起「玩感動、感動玩」台灣！台北、新竹時光機出發囉！帶你穿越古時候的小故事。</h4></div>
-                    </div>
-                    </div>
+                    <div class="row">
+                        <div class="4u 12u$(medium) el"><!--e1-->
+                                <section id="a_img">
+                                    <div class="image fit">
+                                        <a href="#">
+                                          
+                                                <img src="./images/news01.jpg" alt="Pic 01" />
+                                    
+                                        </a>
+                                    </div>
+                                </section>
+                        </div>
+                        
+                        <div class="4u 12u$(medium) el"><!--e1-->
+                            <div class="text_font1">
+                                <h2>產品</h2>
+                                <p>內文</p>
+                            </div>
+                            
+                        </div>
+                        <!--TEST END-->
                 </div>
-            </section>
-            <!-- Footer -->
-			<footer id="footer">
+                <!--TEST END-->
+                <!-- Footer -->
+                <footer id="footer">
 				<div class="inner">
 					<div class="flex">
 						<div class="copyright">
