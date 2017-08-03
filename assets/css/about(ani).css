@@ -1,0 +1,88 @@
+#container
+{
+    height:2000px;
+}
+
+#container DIV
+{
+    margin:50px;
+    padding:50px;
+    background-color:lightgreen;
+}
+
+.hideme
+{
+    opacity:0;
+}
+
+.hideme2
+{
+    opacity:0;
+}
+
+.hideme3
+{
+    opacity:0;
+}
+
+
+.circle2 {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    
+}
+
+.rectangle {
+    width: 0;
+    height: 150px;
+    background: cyan;
+}
+
+.circle {
+    width: 250px;
+    height: 250px;
+    background: green;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position:relative;
+    left:40%;
+}
+
+
+#leftbox {
+position:relative;
+    left:40%;
+    top:5%;
+}
+
+#rightbox {
+    position:relative;
+    left:60%;
+    top:5%;
+
+}
+#leftbox2 {
+    position:relative;
+    left:38%;
+    top: -40%
+}
+
+#rightbox2 {
+    position:relative;
+    left:48%;
+    top: -40%
+    
+}
+
+.aboutu12{
+    height:2000px;
+}
+
+.heightu{
+    height:400px;
+}

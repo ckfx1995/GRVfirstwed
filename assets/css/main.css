@@ -53,7 +53,12 @@
 
 @import url(http://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
 	.text_font1{
+<<<<<<< HEAD
 		font-family: 'cwTeXFangSong', Roman;
+=======
+		font-family: 'cwTeXFangSong', Roman ,Microsoft JhengHei;
+        font-weight:bold:
+>>>>>>> 31b79a49cba0907ffe03dc864806d2fcf7b594c7
 	}
 /* Box Model */
 
@@ -3107,7 +3112,12 @@ header{
 		left: 0;
 		opacity: 0;
 		filter: alpha(opacity=0);
+<<<<<<< HEAD
 		z-index:0;
+=======
+		-webkit-animation: round 15s linear infinite;
+        animation: round 15s linear infinite;
+>>>>>>> 31b79a49cba0907ffe03dc864806d2fcf7b594c7
 	}
 	
 	#main_img .fir{
@@ -3115,26 +3125,36 @@ header{
 	}
 	
 	#main_img div:nth-child(3) {
+<<<<<<< HEAD
 		-webkit-animation: round_a 15s linear infinite;
 		animation: round_a 15s linear infinite;
+=======
+>>>>>>> 31b79a49cba0907ffe03dc864806d2fcf7b594c7
 		-webkit-animation-delay: 0s;
         animation-delay: 0s;
 	}
 
 	#main_img div:nth-child(2) {
+<<<<<<< HEAD
 		-webkit-animation: round_b 15s linear infinite;
 		animation: round_b 15s linear infinite;
+=======
+>>>>>>> 31b79a49cba0907ffe03dc864806d2fcf7b594c7
 		-webkit-animation-delay: 5s;
 		animation-delay: 5s;
 	}
 
 	#main_img div:nth-child(1) {
+<<<<<<< HEAD
 		-webkit-animation: round_c 15s linear infinite;
 		animation: round_c 15s linear infinite;
+=======
+>>>>>>> 31b79a49cba0907ffe03dc864806d2fcf7b594c7
 		-webkit-animation-delay: 10s;
 		animation-delay: 10s;
 	}
 
+<<<<<<< HEAD
 	 /*round_c*/
 	@-webkit-keyframes round_c {
 		7% {
@@ -3188,6 +3208,9 @@ header{
 	}
 	/*round_b*/
 	@-webkit-keyframes round_b {
+=======
+	@-webkit-keyframes round {
+>>>>>>> 31b79a49cba0907ffe03dc864806d2fcf7b594c7
 		7% {
 			opacity: 1;
 			filter: alpha(opacity=100);
@@ -3212,7 +3235,11 @@ header{
 			z-index:0;
 		}
 	}
+<<<<<<< HEAD
 	@keyframes round_b {
+=======
+	@keyframes round {
+>>>>>>> 31b79a49cba0907ffe03dc864806d2fcf7b594c7
 		7% {
 			opacity: 1;
 			filter: alpha(opacity=100);
