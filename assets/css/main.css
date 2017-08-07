@@ -2943,6 +2943,7 @@ header{
 		font-weight:bold;
 		margin-top:-6px;
 		height:0;
+        width : 100px;
 		background:rgba(64, 142, 179, 0);
 		padding: 0 .7em;
 		color:#EEFFFF;
@@ -3614,3 +3615,9 @@ header{
 		height:60px
 	}
 
+b {
+    font-size: 8pt;
+    position:relative;
+    top: -80px;
+    float:left;
+}

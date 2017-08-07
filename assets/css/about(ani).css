@@ -62,22 +62,35 @@ position:relative;
 
 #rightbox {
     position:relative;
-    left:60%;
+    left:55%;
     top:5%;
 
 }
 #leftbox2 {
     position:relative;
-    left:38%;
+    left:35%;
     top: -40%
 }
 
 #rightbox2 {
     position:relative;
-    left:48%;
+    left:45%;
     top: -40%
     
 }
+
+#RWDbox {
+    position:relative;
+    left:5%;
+    top: -40%
+}
+
+#RWDbox2 {
+    position:relative;
+    left:10%;
+    top : 5%;
+}
+
 
 .aboutu12{
     height:2000px;
@@ -86,3 +99,17 @@ position:relative;
 .heightu{
     height:400px;
 }
+.aboutu22 {
+    display:none;
+}
+
+
+@media only screen and (max-width: 980px) {
+    .aboutu12{
+        display:none;
+    }
+    .aboutu22 {
+        display: block;
+    }
+}
+
