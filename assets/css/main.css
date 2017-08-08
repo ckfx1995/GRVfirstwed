@@ -2935,7 +2935,7 @@ header{
 	
 	#nav #n1 {
 		width:auto;
-        height:92px;
+		max-height:92px;
 	}
 	#nav .nav_cover{
 		font-size:18px;
@@ -3708,3 +3708,4 @@ header{
     }
     
 }
+
