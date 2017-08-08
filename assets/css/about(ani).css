@@ -143,4 +143,9 @@ position:relative;
         display: block;
     }
 }
-
+#aboutH1{
+    position:relative;
+    left:20%;
+    top: 45%
+    
+}
