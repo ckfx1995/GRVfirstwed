@@ -1,4 +1,4 @@
-@charset "UTF-8";
+x@charset "UTF-8";
 /*
  Design By Away
  http://www.dfuns.idv.tw
@@ -18,7 +18,7 @@
 .status li{ cursor:pointer; background:#FFF; display:inline-block; text-indent:-9999px; border:2px solid #CCC; width:8px; height:8px; border-radius:100%; margin:0 5px; *float:left; }
 .status li.now{ background:#09C; border-color:#999;}
 
-.dIcon{ text-indent:-9999px; position:absolute; top:140px; display:block; width:20px; height:20px; background:url(all.png) no-repeat; width:38px; height:47px;}
+.dIcon{ text-indent:-9999px; position:absolute; top:140px; display:block; width:20px; height:20px; background:url(../../images/all.png) no-repeat; width:38px; height:47px;}
 .next{ right:10px; background-position:-44px -2px;}
 .prev{ left:10px; background-position:0 -2px;}
 .next:hover{ background-position:-44px -55px;}

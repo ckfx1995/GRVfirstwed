@@ -53,7 +53,7 @@
 
 @import url(http://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
 	.text_font1{
-		font-family: 'cwTeXFangSong', Roman ,Microsoft JhengHei;
+		font-family:sans-serif , 'cwTeXFangSong', Roman ,Microsoft JhengHei;
         font-weight:bold:
 	}
 /* Box Model */
@@ -116,8 +116,7 @@
 		.container {
 			width: 80em;
 		}
-
-	}
+}
 
 	@media screen and (max-width: 1280px) {
 
@@ -142,7 +141,6 @@
 		.container {
 			width: 65em;
 		}
-
 	}
 
 	@media screen and (max-width: 980px) {
@@ -168,7 +166,7 @@
 		.container {
 			width: 90%;
 		}
-
+       
 	}
 
 	@media screen and (max-width: 736px) {
@@ -2630,7 +2628,7 @@ header{
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #676767;
+			background-color: #7fffd4;
 		}
 
 		input[type="submit"]:active,
@@ -2862,7 +2860,6 @@ header{
 					#header a.navPanelToggle {
 						display: inline-block;
 					}
-
 				}
 
 			@media screen and (max-width: 736px) {
@@ -2927,7 +2924,8 @@ header{
 		#nav {
 			display: none;
 		}
-		
+        
+
 	}
 
 	/*transform*/
@@ -2937,18 +2935,18 @@ header{
 	
 	#nav #n1 {
 		width:auto;
+        height:92px;
 	}
 	#nav .nav_cover{
 		font-size:18px;
 		font-weight:bold;
-		margin-top:-6px;
 		height:0;
         width : 100px;
 		background:rgba(64, 142, 179, 0);
 		padding: 0 .7em;
 		color:#EEFFFF;
 	}
-	
+
 	#nav .nav_cover:hover{
 		background:rgba(64, 142, 179, 0.5);
 		transition:0.5s;
@@ -3640,7 +3638,9 @@ header{
 			}
 
 	.foot3{
-		width:33.33%;
+		width:100%;
+        position:relative;
+        left:10%;
 	}
 			
 	#footer ul.icons li .icon {
@@ -3684,9 +3684,27 @@ header{
 		height:60px
 	}
 
-b {
-    font-size: 8pt;
-    position:relative;
-    top: -80px;
-    float:left;
+
+@media screen and (min-width: 981px) {
+    
+        b {
+        font-size: 8pt;
+        color: #ffffff;
+        position:relative;
+        top:-75px;
+        left:5px;
+        float:left;
+    }
+    
+}
+
+@media screen and (max-width: 980px) {
+       b {
+        font-size: 8pt;
+        color: #ffffff;
+        position:relative;
+        left:15%;
+        
+    }
+    
 }

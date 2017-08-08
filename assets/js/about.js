@@ -57,7 +57,7 @@ $(document).ready(function() {
                                                       /* If the object is completely visible in the window, fade it it */
                                                       if( bottom_of_window > bottom_of_object  ){
                                                       helper=1;
-                                                      $(this).delay( 500 );
+                                                      $(this).delay( 100 );
                                                       $(this).animate({'opacity':'1',width: '40%'},1000);
                                                       }
                                                       
@@ -82,7 +82,7 @@ $(document).ready(function() {
                                                       /* If the object is completely visible in the window, fade it it */
                                                       if( bottom_of_window > bottom_of_object  ){
                                                       helper=1;
-                                                      $(this).delay( 500 );
+                                                      $(this).delay( 100 );
                                                       $(this).animate({'opacity':'1',width: '85%'},1000);
                                                       }
                                                       
@@ -95,3 +95,6 @@ $(document).ready(function() {
                   
                   
                   });
+
+
+
