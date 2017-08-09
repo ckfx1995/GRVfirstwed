@@ -3458,6 +3458,7 @@ header{
 		text-align:center;
 		padding-top:30px;
 		margin:0;
+        font-family:sans-serif ,Microsoft JhengHei;
 	}
 
 	@media screen and (max-width: 980px){
