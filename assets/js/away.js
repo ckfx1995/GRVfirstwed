@@ -13,7 +13,7 @@ $(function(){
 	$(".next").click(function(){
 		if(gNum<AA){
 			gNum++;
-			dX = gNum*-180;
+			dX = gNum*-175;
 		}else{
 			gNum=0;
 			dX = 0;
@@ -24,7 +24,7 @@ $(function(){
 	$(".prev").click(function(){
 		if(gNum>0){
 			gNum--;
-			dX = gNum*-180;
+			dX = gNum*-175;
 		}
 		SS();
 	});
@@ -36,7 +36,7 @@ $(function(){
 	
 	$(".status li").click(function(){
 		gNum=$(this).index();
-		dX = gNum*WW*-180;
+		dX = gNum*WW*-175;
 		SS();
 	});
 	
