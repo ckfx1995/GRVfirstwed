@@ -27,13 +27,13 @@
 
 
 .circle2 {
-    width: 200px;
+    width: 100px;
     height: 200px;
-    background: blue;
+    background: url('../../images/logo-07.png');
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    
+	background-size: contain;
 }
 
 .rectangle {
@@ -43,19 +43,19 @@
 }
 
 .circle {
-    width: 250px;
-    height: 275px;
-    background-image: url("../../images/logo_Big.png");
+    width: 300px;
+    height: 268px;
+    background: url("../../images/logo-06.png");
   /*  -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;*/
     position:relative;
     left:40%;
     top:50px;
-    -moz-background-size:250px;
-    -webkit-background-size:250px;
-    -o-background-size:250px;
-    background-size:250px;
+    -moz-background-size:contain;
+    -webkit-background-size:contain;
+    -o-background-size:contain;
+    background-size:contain;
     animation:myfirst 1s;
     -moz-animation:myfirst 1s; /* Firefox */
     -webkit-animation:myfirst 1s; /* Safari and Chrome */
