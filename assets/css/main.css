@@ -2150,7 +2150,7 @@ header{
 			input[type="radio"] + label:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family:sans-serif ,Microsoft JhengHei;
+                font-family:sans-serif ,Microsoft JhengHei;
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
