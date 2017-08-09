@@ -53,7 +53,11 @@
 
 @import url(http://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
 	.text_font1{
+<<<<<<< HEAD
 		font-family:sans-serif ,Microsoft JhengHei;
+=======
+		font-family:sans-serif ,Microsoft JhengHei, LiHei Pro;
+>>>>>>> d86fbc82528262c20e3738f7fb3e5e5ec3edb5e5
         font-weight:bold:
 	}
 /* Box Model */
@@ -1714,7 +1718,11 @@
 		background: rgba(144, 144, 144, 0.075);
 		border-radius: 0;
 		border: solid 1px #dbdbdb;
+<<<<<<< HEAD
 		font-family:sans-serif ,Microsoft JhengHei;
+=======
+        font-family:sans-serif ,Microsoft JhengHei;
+>>>>>>> d86fbc82528262c20e3738f7fb3e5e5ec3edb5e5
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
@@ -1722,7 +1730,11 @@
 
 	pre {
 		-webkit-overflow-scrolling: touch;
+<<<<<<< HEAD
 		font-family:sans-serif ,Microsoft JhengHei;
+=======
+        font-family:sans-serif ,Microsoft JhengHei;
+>>>>>>> d86fbc82528262c20e3738f7fb3e5e5ec3edb5e5
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
 	}
@@ -2085,7 +2097,11 @@ header{
 			content: "";
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
+<<<<<<< HEAD
 			font-family:sans-serif ,Microsoft JhengHei;
+=======
+            font-family:sans-serif ,Microsoft JhengHei;
+>>>>>>> d86fbc82528262c20e3738f7fb3e5e5ec3edb5e5
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -2150,7 +2166,11 @@ header{
 			input[type="radio"] + label:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
+<<<<<<< HEAD
 				font-family:sans-serif ,Microsoft JhengHei;
+=======
+                font-family:sans-serif ,Microsoft JhengHei;
+>>>>>>> d86fbc82528262c20e3738f7fb3e5e5ec3edb5e5
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
@@ -2267,7 +2287,11 @@ header{
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
+<<<<<<< HEAD
 			font-family:sans-serif ,Microsoft JhengHei;
+=======
+            font-family:sans-serif ,Microsoft JhengHei;
+>>>>>>> d86fbc82528262c20e3738f7fb3e5e5ec3edb5e5
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -3033,7 +3057,11 @@ header{
 			#navPanel .close:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
+<<<<<<< HEAD
 				font-family:sans-serif ,Microsoft JhengHei;
+=======
+                font-family:sans-serif ,Microsoft JhengHei;
+>>>>>>> d86fbc82528262c20e3738f7fb3e5e5ec3edb5e5
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
