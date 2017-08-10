@@ -2177,7 +2177,7 @@ header{
 			background: #5a5a5a;
 			border-color: #5a5a5a;
 			color: #ffffff;
-			content: '\f00c';
+		/*	content: '\f00c';*/
 		}
 
 		input[type="checkbox"]:focus + label:before,
