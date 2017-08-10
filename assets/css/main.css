@@ -3081,11 +3081,13 @@ header{
 	#n_img {
 		position: relative;
 		padding:0;
+        top: 10px;
 	}
 	
 	#n_img img {
 		max-width:100%;
 		height:auto;
+        top: 15px;
 	}
 	
 	#main_img {
@@ -3671,11 +3673,7 @@ header{
 				text-decoration: underline;
 			}
 
-	.foot3{
-		width:100%;
-        position:relative;
-        left:10%;
-	}
+
 			
 	#footer ul.icons li .icon {
 		font-size: 0.58em;
@@ -3729,6 +3727,11 @@ header{
         left:5px;
         float:left;
     }
+        .foot3{
+            width:100%;
+            position:relative;
+            left:10%;
+        }
     
 }
 
@@ -3741,14 +3744,29 @@ header{
         
     }
     
+    .footerLeft{
+        min-width:320px;
+    }
+
+    .footerRight{
+        float: right;
+        width:50%
+    }
+    #footer{
+    }
 }
 /* type button*/
 
 
 .typebutton {
-    width:130px;
-    height:68px;
-    top:10px;
+    width:100px;
+    height:55px;
+    font-size: 15px;
 }
 
+/*footer*/
 
+.footerIcon{
+    width:30px;
+    height:30px;
+}
