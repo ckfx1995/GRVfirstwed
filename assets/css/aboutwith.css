@@ -10,9 +10,7 @@
     background-color:lightgreen;
 }
 
-.scrEvent{
-    display:none;
-}
+
 
 .circle {
     width: 300px;
@@ -107,6 +105,10 @@
 }
 
 @media screen and (min-width: 980px){
+    .scrEvent{
+        display:none;
+    }
+    
     .circle2 {
         width: 100px;
         height: 200px;

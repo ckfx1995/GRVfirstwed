@@ -1,3 +1,4 @@
+$(document).ready(function() {
 var setArea = $('.scrEvent'),
 showHeight = 150;
 setArea.css({display:'block', opacity:'0'});
@@ -13,3 +14,4 @@ $(window).on('load scroll resize', function(){
                           }
                           });
              });
+ });
