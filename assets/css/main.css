@@ -3816,11 +3816,3 @@ header{
     height:30px;
 }
 
-/*about*/
-.aboutBody{
-    position: relative;
-    top: 50%;
-    left:25%;
-    transform: translateY(-50%);
-    white-space: normal; width: 70%;
-}

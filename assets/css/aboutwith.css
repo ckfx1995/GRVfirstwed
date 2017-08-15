@@ -120,6 +120,39 @@
         position:relative;
         
     }
+    .circle3 {
+        width: 100px;
+        height: 200px;
+        background: url('../../images/logo-08.png');
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        background-size: contain;
+        position:relative;
+        
+    }
+    .circle4 {
+        width: 100px;
+        height: 200px;
+        background: url('../../images/logo-09.png');
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        background-size: contain;
+        position:relative;
+        
+    }
+    .circle5 {
+        width: 100px;
+        height: 200px;
+        background: url('../../images/logo-10.png');
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        background-size: contain;
+        position:relative;
+        
+    }
     
     .rectangle {
         width: 50%;
@@ -158,12 +191,28 @@
         top:45%;
         
     }
+    .aboutBody{
+        position: relative;
+        top: 50%;
+        left:25%;
+        transform: translateY(-50%);
+        white-space: normal; width: 70%;
+    }
+
     
 }
 
-
 @media screen and (max-width: 980px){
     .circle2 {
+        display:none;
+    }
+    .circle3 {
+        display:none;
+    }
+    .circle4 {
+        display:none;
+    }
+    .circle5 {
         display:none;
     }
     
@@ -175,33 +224,201 @@
     }
     
     .leaf1{
-        width: 85px;
-        height: 50px;
+        width: 200px;
+        height: 200px;
         background: url('../../images/leaf1.png');
+        background-repeat:no-repeat;
         text-align:center;
         background-size: contain;
         position:relative;
-        left: 15%;
-        top:-100px;
+        left: 10%;
+        top:-180px;
         transform: translateX(-50%);
         
     }
     
     .leaf2{
-        width: 85px;
-        height: 50px;
+        width: 200px;
+        height: 200px;
         background: url('../../images/leaf1.png');
+        background-repeat:no-repeat;
         text-align:center;
         background-size: contain;
         position: relative;
-        left: 15%;
-        top:-100px;
+        left: 10%;
+        top:-180px;
         transform: translateX(-50%);
         
     }
     .leafH1{
         position:relative;
-        top:45%;
+        top:20%;
+        left:10%;
+        
+    }
+    
+    
+    #leftbox {
+        left:20%;
+    }
+    
+    #rightbox {
+        left:20%;
+        
+    }
+    #leftbox2 {
+        left:0%;
+    }
+    
+    #rightbox2 {
+        left:0%;
+        
+    }
+    .aboutBody{
+        position: relative;
+        top: 50%;
+        left:5%;
+        transform: translateY(-50%);
+        white-space: normal; width: 90%;
+    }
+    
+    
+}
+
+@media screen and (max-width: 480px){
+    .circle2 {
+        display:none;
+    }
+    .circle3 {
+        display:none;
+    }
+    .circle4 {
+        display:none;
+    }
+    .circle5 {
+        display:none;
+    }
+    
+    .rectangle {
+        width: 80%;
+        height: 150px;
+        background: cyan;
+        position:relative;
+    }
+    
+    .leaf1{
+        width: 150px;
+        height: 200px;
+        background: url('../../images/leaf1.png');
+        background-repeat:no-repeat;
+        text-align:center;
+        background-size: contain;
+        position:relative;
+        left: 10%;
+        top:-200px;
+        transform: translateX(-50%);
+        
+    }
+    
+    .leaf2{
+        width: 150px;
+        height: 200px;
+        background: url('../../images/leaf1.png');
+        background-repeat:no-repeat;
+        text-align:center;
+        background-size: contain;
+        position: relative;
+        left: 10%;
+        top:-200px;
+        transform: translateX(-50%);
+        
+    }
+    .leafH1{
+        position:relative;
+        top:17%;
+        left:5%;
+        
+    }
+    
+    
+    #leftbox {
+        left:20%;
+    }
+    
+    #rightbox {
+        left:20%;
+        
+    }
+    #leftbox2 {
+        left:0%;
+    }
+    
+    #rightbox2 {
+        left:0%;
+        
+    }
+    .aboutBody{
+        position: relative;
+        top: 50%;
+        left:5%;
+        transform: translateY(-50%);
+        white-space: normal; width: 90%;
+    }
+    
+    
+}
+
+
+@media screen and (max-width: 320px){
+    .circle2 {
+        display:none;
+    }
+    .circle3 {
+        display:none;
+    }.circle4 {
+        display:none;
+    }.circle5 {
+        display:none;
+    }
+    
+    .rectangle {
+        width: 80%;
+        height: 150px;
+        background: cyan;
+        position:relative;
+    }
+    
+    .leaf1{
+        width: 150px;
+        height: 200px;
+        background: url('../../images/leaf1.png');
+        background-repeat:no-repeat;
+        text-align:center;
+        background-size: contain;
+        position:relative;
+        left: 5%;
+        top:-200px;
+        transform: translateX(-50%);
+        
+    }
+    
+    .leaf2{
+        width: 150px;
+        height: 200px;
+        background: url('../../images/leaf1.png');
+        background-repeat:no-repeat;
+        text-align:center;
+        background-size: contain;
+        position: relative;
+        left: 5%;
+        top:-200px;
+        transform: translateX(-50%);
+        
+    }
+    .leafH1{
+        position:relative;
+        top:17%;
+        left:5%;
         
     }
 
@@ -221,6 +438,13 @@
     #rightbox2 {
         left:0%;
         
+    }
+    .aboutBody{
+        position: relative;
+        top: 50%;
+        left:5%;
+        transform: translateY(-50%);
+        white-space: normal; width: 90%;
     }
 
 
